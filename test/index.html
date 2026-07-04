@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nexus Arena - The ultimate next-gen gaming ecosystem. Participate in live tournaments, discover premium titles, and play our HTML5 arcade shooter.">
+    <title>Nexus Arena | Next-Gen Gaming Ecosystem</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@400;600;800;900&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+    <!-- Navbar -->
+    <header class="main-header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <span class="logo-glow">NEXUS</span>ARENA
+            </a>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#games" class="nav-link">Games</a></li>
+                    <li><a href="#tournaments" class="nav-link">Tournaments</a></li>
+                    <li><a href="#mini-game" class="nav-link">Mini-Game</a></li>
+                    <li><a href="#newsletter" class="nav-link">Subscribe</a></li>
+                </ul>
+            </nav>
+            <div class="nav-actions">
+                <a href="#mini-game" class="btn btn-primary btn-glow">PLAY DEMO</a>
+                <button class="mobile-toggle" aria-label="Toggle Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-badge"><span class="pulse-dot"></span> LIVE BETA VERSION</div>
+                <h1 class="hero-title">WHERE HEROES RISE AND <span class="text-gradient">LEGENDS</span> ARE FORGED</h1>
+                <p class="hero-subtitle">Experience the ultimate next-gen web gaming ecosystem. Play instantly, register for high-stakes tournaments, and track real-time competitive statistics.</p>
+                <div class="hero-ctas">
+                    <a href="#games" class="btn btn-secondary">Explore Vault</a>
+                    <a href="#mini-game" class="btn btn-primary btn-glow">Enter the Arena</a>
+                </div>
+            </div>
+            
+            <!-- Real-time Stats Grid -->
+            <div class="hero-stats">
+                <div class="stat-card glass-panel">
+                    <div class="stat-icon"><i class="fa-solid fa-gamepad"></i></div>
+                    <div class="stat-info">
+                        <span class="stat-number" data-target="124530">0</span>
+                        <span class="stat-label">Active Players</span>
+                    </div>
+                </div>
+                <div class="stat-card glass-panel">
+                    <div class="stat-icon"><i class="fa-solid fa-trophy"></i></div>
+                    <div class="stat-info">
+                        <span class="stat-prefix">$</span><span class="stat-number" data-target="250000">0</span>
+                        <span class="stat-label">Prize Pools</span>
+                    </div>
+                </div>
+                <div class="stat-card glass-panel">
+                    <div class="stat-icon"><i class="fa-solid fa-server"></i></div>
+                    <div class="stat-info">
+                        <span class="stat-status"><span class="status-indicator"></span> 99.9% UP</span>
+                        <span class="stat-label">Nexus Net Status</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Games Showcase Section -->
+    <section id="games" class="section games-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">THE NEXUS VAULT</h2>
+                <p class="section-subtitle">Discover the premier flagship titles engineered directly for our high-fidelity cloud network.</p>
+            </div>
+            <div class="games-grid">
+                <!-- Game Card 1 -->
+                <div class="game-card glass-panel">
+                    <div class="game-thumbnail">
+                        <img src="assets/game-cyber.jpg" alt="Neon Frontier Game Artwork" loading="lazy">
+                        <div class="game-tag tag-fps">FPS</div>
+                    </div>
+                    <div class="game-details">
+                        <div class="game-meta">
+                            <span class="game-rating"><i class="fa-solid fa-star"></i> 9.6</span>
+                            <span class="game-platforms"><i class="fa-brands fa-windows"></i> <i class="fa-brands fa-playstation"></i> <i class="fa-brands fa-xbox"></i></span>
+                        </div>
+                        <h3 class="game-title">Neon Frontier</h3>
+                        <p class="game-description">Tactical sci-fi warfare in a hyper-dense cyber city. Dominate your opponents in high-stakes squad-based firefights.</p>
+                        <a href="#mini-game" class="btn btn-card">Launch Game</a>
+                    </div>
+                </div>
+
+                <!-- Game Card 2 -->
+                <div class="game-card glass-panel animate-delay-1">
+                    <div class="game-thumbnail">
+                        <img src="assets/game-fantasy.jpg" alt="Eldoria Game Artwork" loading="lazy">
+                        <div class="game-tag tag-rpg">RPG</div>
+                    </div>
+                    <div class="game-details">
+                        <div class="game-meta">
+                            <span class="game-rating"><i class="fa-solid fa-star"></i> 9.8</span>
+                            <span class="game-platforms"><i class="fa-brands fa-windows"></i> <i class="fa-brands fa-playstation"></i></span>
+                        </div>
+                        <h3 class="game-title">Eldoria: Awakening</h3>
+                        <p class="game-description">Embark on a breathtaking journey through a vast, magical open-world. Harness ancient runic forces and build your legacy.</p>
+                        <a href="#mini-game" class="btn btn-card">Launch Game</a>
+                    </div>
+                </div>
+
+                <!-- Game Card 3 -->
+                <div class="game-card glass-panel animate-delay-2">
+                    <div class="game-thumbnail">
+                        <img src="assets/game-drift.jpg" alt="Neon Drift Game Artwork" loading="lazy">
+                        <div class="game-tag tag-racing">RACING</div>
+                    </div>
+                    <div class="game-details">
+                        <div class="game-meta">
+                            <span class="game-rating"><i class="fa-solid fa-star"></i> 9.4</span>
+                            <span class="game-platforms"><i class="fa-brands fa-windows"></i> <i class="fa-brands fa-unity"></i> <i class="fa-solid fa-vr-cardboard"></i></span>
+                        </div>
+                        <h3 class="game-title">Neon Drift</h3>
+                        <p class="game-description">High-octane gravity-defying race simulation. Drift through anti-gravity loops under blazing neon cityscapes.</p>
+                        <a href="#mini-game" class="btn btn-card">Launch Game</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tournament Section -->
+    <section id="tournaments" class="section tournament-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">TOURNAMENT ARENA</h2>
+                <p class="section-subtitle">Compete on a global stage. View active bracket progress or register for upcoming competitive tournaments.</p>
+            </div>
+            
+            <div class="tournament-tabs-wrapper glass-panel">
+                <!-- Tab Headers -->
+                <div class="tab-headers">
+                    <button class="tab-btn active" data-tab="bracket">Live Bracket</button>
+                    <button class="tab-btn" data-tab="register">Upcoming Tournaments</button>
+                </div>
+
+                <!-- Tab Contents -->
+                <div class="tab-contents">
+                    <!-- Tab 1: Live Bracket -->
+                    <div id="bracket" class="tab-content active">
+                        <div class="bracket-container">
+                            <!-- Semi Finals -->
+                            <div class="bracket-round">
+                                <h4 class="round-title">Semi-Finals</h4>
+                                <div class="matchup">
+                                    <div class="team winner" data-team="vortex">
+                                        <span class="team-name">Vortex Esports</span>
+                                        <span class="team-score">3</span>
+                                    </div>
+                                    <div class="team" data-team="aether">
+                                        <span class="team-name">Aether Guild</span>
+                                        <span class="team-score">1</span>
+                                    </div>
+                                </div>
+                                <div class="matchup">
+                                    <div class="team winner" data-team="cyber">
+                                        <span class="team-name">Cyber Strykers</span>
+                                        <span class="team-score">3</span>
+                                    </div>
+                                    <div class="team" data-team="shadow">
+                                        <span class="team-name">Shadow Titans</span>
+                                        <span class="team-score">2</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Connector lines simulated in CSS -->
+
+                            <!-- Finals -->
+                            <div class="bracket-round">
+                                <h4 class="round-title">Championship Finals</h4>
+                                <div class="matchup champion-matchup">
+                                    <div class="team" data-team="vortex">
+                                        <span class="team-name">Vortex Esports</span>
+                                        <span class="team-score">--</span>
+                                    </div>
+                                    <div class="team" data-team="cyber">
+                                        <span class="team-name">Cyber Strykers</span>
+                                        <span class="team-score">--</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Winner -->
+                            <div class="bracket-round champion-round">
+                                <h4 class="round-title">Champion</h4>
+                                <div class="champion-box glass-panel">
+                                    <div class="trophy-icon"><i class="fa-solid fa-trophy"></i></div>
+                                    <span class="champ-text">TBD</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="bracket-notice"><i class="fa-solid fa-circle-info"></i> Click a matching winning team to see their structural path highlighted.</p>
+                    </div>
+
+                    <!-- Tab 2: Register Form -->
+                    <div id="register" class="tab-content">
+                        <div class="register-grid">
+                            <div class="upcoming-list">
+                                <div class="upcoming-item active-item" data-game="Neon Frontier">
+                                    <div class="item-details">
+                                        <h4>Neon Frontier Duo Cup</h4>
+                                        <p><i class="fa-regular fa-calendar"></i> July 15, 2026 | Prize Pool: <strong>$15,000</strong></p>
+                                    </div>
+                                    <span class="item-status">Open</span>
+                                </div>
+                                <div class="upcoming-item" data-game="Eldoria Speedrun">
+                                    <div class="item-details">
+                                        <h4>Eldoria Speedrun Challenge</h4>
+                                        <p><i class="fa-regular fa-calendar"></i> July 22, 2026 | Prize Pool: <strong>$5,000</strong></p>
+                                    </div>
+                                    <span class="item-status">Open</span>
+                                </div>
+                                <div class="upcoming-item" data-game="Neon Drift Pro">
+                                    <div class="item-details">
+                                        <h4>Neon Drift Pro Invitational</h4>
+                                        <p><i class="fa-regular fa-calendar"></i> August 05, 2026 | Prize Pool: <strong>$30,000</strong></p>
+                                    </div>
+                                    <span class="item-status">Open</span>
+                                </div>
+                            </div>
+
+                            <div class="registration-form-panel">
+                                <h3>Register for: <span id="selected-tournament-title" class="text-gradient">Neon Frontier Duo Cup</span></h3>
+                                <form id="tournament-form">
+                                    <div class="form-group">
+                                        <label for="team-name">Team Name / GamerTag</label>
+                                        <input type="text" id="team-name" required placeholder="e.g. AlphaElite">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="player-email">Captain's Email</label>
+                                        <input type="email" id="player-email" required placeholder="name@domain.com">
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="form-group">
+                                            <label for="player-region">Region</label>
+                                            <select id="player-region">
+                                                <option>North America</option>
+                                                <option>Europe</option>
+                                                <option>Asia-Pacific</option>
+                                                <option>South America</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="player-platform">Platform</label>
+                                            <select id="player-platform">
+                                                <option>PC</option>
+                                                <option>PlayStation 5</option>
+                                                <option>Xbox Series X</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary btn-block btn-glow">SUBMIT REGISTRATION</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Canvas Mini-Game Section -->
+    <section id="mini-game" class="section minigame-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">NEXUS DEFENDER</h2>
+                <p class="section-subtitle">Defend the grid from meteor threats. Retro arcade gameplay powered directly by Javascript canvas.</p>
+            </div>
+            
+            <div class="game-dashboard">
+                <!-- High Scores and Stats (Left) -->
+                <div class="game-sidebar glass-panel">
+                    <h3>Nexus Elite Board</h3>
+                    <ul class="leaderboard-list">
+                        <li>
+                            <span class="rank">#1</span>
+                            <span class="name">Kaelen_X</span>
+                            <span class="score">42,900</span>
+                        </li>
+                        <li>
+                            <span class="rank">#2</span>
+                            <span class="name">ZeroGravity</span>
+                            <span class="score">38,150</span>
+                        </li>
+                        <li>
+                            <span class="rank">#3</span>
+                            <span class="name">CyberSamurai</span>
+                            <span class="score">31,400</span>
+                        </li>
+                        <li>
+                            <span class="rank">#4</span>
+                            <span class="name">NovaWielder</span>
+                            <span class="score">25,800</span>
+                        </li>
+                        <li>
+                            <span class="rank">#5</span>
+                            <span class="name">You</span>
+                            <span id="player-high-score" class="score">0</span>
+                        </li>
+                    </ul>
+
+                    <div class="controls-panel">
+                        <h4>Mission Directives</h4>
+                        <ul>
+                            <li><kbd><i class="fa-solid fa-arrow-left"></i></kbd> / <kbd><i class="fa-solid fa-arrow-right"></i></kbd> or <kbd>A</kbd> / <kbd>D</kbd> : Pilot Ship</li>
+                            <li><kbd>Space</kbd> : Engage Laser Cannons</li>
+                            <li><kbd>P</kbd> : Tactical Pause</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Playable Screen (Right/Center) -->
+                <div class="game-screen-wrapper glass-panel">
+                    <div class="game-hud">
+                        <div class="hud-item">SCORE: <span id="game-score" class="text-gradient">00000</span></div>
+                        <div class="hud-item">LIVES: <span id="game-lives" class="health-indicators"><i class="fa-solid fa-heart"></i><i class="fa-solid fa-heart"></i><i class="fa-solid fa-heart"></i></span></div>
+                    </div>
+                    <div class="canvas-container">
+                        <canvas id="gameCanvas" width="700" height="420"></canvas>
+                        
+                        <!-- Overlay Screens -->
+                        <div id="game-overlay" class="game-overlay-screen">
+                            <div class="overlay-content">
+                                <h2 id="overlay-title" class="pulse-glow">NEXUS DEFENDER</h2>
+                                <p id="overlay-desc">Eliminate descending meteoroids before they destroy the defense lines.</p>
+                                <button id="start-btn" class="btn btn-primary btn-glow">LAUNCH INTERCEPTOR</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter subscription section -->
+    <section id="newsletter" class="section newsletter-section">
+        <div class="container">
+            <div class="newsletter-card glass-panel">
+                <div class="newsletter-icon">
+                    <i class="fa-regular fa-envelope-open"></i>
+                </div>
+                <div class="newsletter-content">
+                    <h2 class="newsletter-title">CONNECT TO THE NETWORK</h2>
+                    <p class="newsletter-desc">Subscribe to unlock early-bird game test builds, special alpha access keys, and the latest esports drops.</p>
+                    <form id="subscribe-form" class="subscribe-form">
+                        <input type="email" id="subscriber-email" required placeholder="Enter your neural address (email)...">
+                        <button type="submit" class="btn btn-primary btn-glow">SUBSCRIBE</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-info">
+                <a href="#" class="logo footer-logo">
+                    <span class="logo-glow">NEXUS</span>ARENA
+                </a>
+                <p>Establishing the foundational decentralized entertainment layer for next-gen cyber sport and immersive virtual worlds.</p>
+                <div class="social-links">
+                    <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://discord.com" target="_blank" aria-label="Discord"><i class="fa-brands fa-discord"></i></a>
+                    <a href="https://twitch.tv" target="_blank" aria-label="Twitch"><i class="fa-brands fa-twitch"></i></a>
+                    <a href="https://youtube.com" target="_blank" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Ecosystem</h4>
+                <ul>
+                    <li><a href="#games">Vault Games</a></li>
+                    <li><a href="#tournaments">Championships</a></li>
+                    <li><a href="#mini-game">Arcade Demo</a></li>
+                    <li><a href="#newsletter">Alpha Sign-up</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h4>Legals</h4>
+                <ul>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Privacy Protocol</a></li>
+                    <li><a href="#">Cookie Setting</a></li>
+                    <li><a href="#">Neural Security</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Nexus Arena. All network streams secured. Made for the next generation of gamers.</p>
+        </div>
+    </footer>
+
+    <!-- Toast Notification Container -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <!-- Main JavaScript File -->
+    <script src="app.js"></script>
+</body>
+</html>
